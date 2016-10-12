@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TareaSemana2</string>
+    <string name="titulo_confirmar_datos">Confirmar datos</string>
+    <string name="nombre_completo">Nombre completo: </string>
+    <string name="fecha_nacimiento">Fecha de nacimiento: </string>
+    <string name="telefono">Tel. </string>
+    <string name="email">Email: </string>
+    <string name="descripcion_contacto">Descripción Contacto: </string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnConfirmarDatos">Confirmar Datos</string>
+    <string name="pNombre_completo">nombreCompleto</string>
+    <string name="pFecha_nacimientoYear">fechaNacimientoAño</string>
+    <string name="pFecha_nacimientoDay">fechaNacimientoDia</string>
+    <string name="pFecha_nacimientoMonth">fechaNacimientoMes</string>
+    <string name="pTelefono">telefono</string>
+    <string name="pEmail">email</string>
+    <string name="pDescripcion_contacto">descripcionContacto</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.coursera.gvalerio.tareasemana2.ConfirmardatosActivity">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_confirmar_datos"
+        android:textSize="@dimen/confirmarDatos_textSize"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/confirmarDatos_marginBotomTitulo"
+        />
+
+    <TextView
+        android:id="@+id/tvNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvConfirmarDatos"
+        android:text="@string/nombre_completo"
+        android:layout_marginBottom="@dimen/confirmarDatos_marginBotom"
+        />
+
+    <LinearLayout
+    android:id="@+id/lyFechaNacimiento"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvNombreCompleto"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/confirmarDatos_marginBotom"
+        >
+
+    <TextView
+        android:id="@+id/tvDescripcionFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_nacimiento"
+        />
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_nacimiento"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lyFechaNacimiento"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/confirmarDatos_marginBotom"
+        >
+
+        <TextView
+            android:id="@+id/tvDescripcionTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lyTelefono"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/confirmarDatos_marginBotom"
+        >
+
+        <TextView
+            android:id="@+id/tvDescripcionEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lyEmail"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvDescripcionDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_contacto" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_contacto" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConfirmarDatos"
+        android:layout_below="@id/lyDescripcion"
+        android:theme="@style/MiRaisedButton"
+        android:layout_marginTop="@dimen/confirmarDatos_marginTopBoton"
+        />
+</RelativeLayout>
